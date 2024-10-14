@@ -83,8 +83,7 @@ def plot_thread_comparison(
     plt.legend()
     plt.tight_layout()
 
-    plt.savefig("forkjoin_vs_parallel_comparison.png")
-    plt.show()
+    plt.savefig("output/forkjoin_vs_parallel_comparison.png")
 
 
 def calculate_threshold_stats(threshold_data):
@@ -160,8 +159,7 @@ def plot_threshold_variation(threshold_stats):
         ax.legend()
 
     plt.tight_layout()
-    plt.savefig("threshold_variation_comparison_subplots.png")
-    plt.show()
+    plt.savefig("output/threshold_variation_comparison_subplots.png")
 
 
 def main():
