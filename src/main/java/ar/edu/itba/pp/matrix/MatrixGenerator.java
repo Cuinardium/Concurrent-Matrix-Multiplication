@@ -12,6 +12,11 @@ public class MatrixGenerator {
         this.random = new Random(seed);
     }
 
+    public MatrixGenerator(int size) {
+        this.size = size;
+        this.random = new Random();
+    }
+
 
     public double[][] generate() {
         double[][] resp = new double[size][size];
